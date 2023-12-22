@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="3"
+    android:background="@drawable/ys">
+    <include layout="@layout/toollbar"></include>
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Select The category"
+        android:textSize="30dp"
+        android:textAllCaps="true"
+        android:textAlignment="center"
+        android:textColor="#000"
+        android:textStyle="bold"
+        android:layout_margin="20dp"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:weightSum="2">
+
+        <android.widget.Button
+            android:id="@+id/itquiz"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="20dp"
+            android:layout_weight="1"
+            android:background="@drawable/it"/>
+        <android.widget.Button
+            android:id="@+id/general"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="20dp"
+            android:layout_weight="1"
+           android:background="@drawable/gk">
+
+        </android.widget.Button>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:weightSum="2">
+
+        <android.widget.Button
+            android:id="@+id/history"
+            android:layout_width="0dp"
+            android:textStyle="bold"
+            android:layout_height="match_parent"
+            android:layout_margin="20dp"
+            android:layout_weight="1"
+            android:background="@drawable/hi"
+            ></android.widget.Button>
+
+        <android.widget.Button
+            android:id="@+id/geography"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="20dp"
+            android:layout_weight="1"
+         android:background="@drawable/tr">
+
+        </android.widget.Button>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:weightSum="2">
+
+        <android.widget.Button
+            android:id="@+id/sports"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="20dp"
+            android:layout_weight="1"
+           android:background="@drawable/s"></android.widget.Button>
+
+        <android.widget.Button
+            android:id="@+id/science"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="20dp"
+            android:layout_weight="1"
+            android:textStyle="bold"
+           android:background="@drawable/sc"></android.widget.Button>
+    </LinearLayout>
+
+
+</LinearLayout>

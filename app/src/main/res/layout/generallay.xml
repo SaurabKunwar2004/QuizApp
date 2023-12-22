@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ys">
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:background="#388E3C"
+        android:id="@+id/welcome">
+
+        <android.widget.Button
+            android:id="@+id/BackbtnG"
+            android:layout_width="51dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="10dp"
+            android:background="@drawable/back"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="General Knowledge"
+            android:textAllCaps="true"
+            android:textStyle="bold"
+            android:layout_alignEnd="@+id/BackbtnG"
+            android:textColor="#fff"
+            android:textSize="28dp"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="10dp" />
+
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/mode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/welcome"
+        android:layout_marginTop="110dp"
+        android:text=" Choose Modes"
+        android:textAlignment="center"
+        android:textColor="#000"
+        android:textSize="35dp"
+        android:textStyle="bold"
+
+        />
+
+    <android.widget.Button
+        android:id="@+id/Gbasic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/mode"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="91dp"
+        android:layout_marginEnd="35dp"
+        android:layout_marginBottom="35dp"
+        android:background="@drawable/custom_color"
+        android:text="  Basic  "
+        android:textAllCaps="false"
+        android:textColor="#fff"
+        android:textSize="35dp" />
+
+    <android.widget.Button
+        android:id="@+id/Gadv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Gbasic"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginBottom="25dp"
+        android:background="@drawable/custom_color"
+        android:text="  Advanced  "
+        android:textAllCaps="false"
+        android:textColor="#fff"
+        android:textSize="35dp" />
+
+
+
+</RelativeLayout>

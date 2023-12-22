@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".SecondActivity"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ys">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:background="#388E3C"
+        android:id="@+id/welcome">
+
+        <android.widget.Button
+            android:id="@+id/BackbtnH"
+            android:layout_width="51dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="10dp"
+            android:background="@drawable/back"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="History"
+            android:textAllCaps="true"
+            android:textStyle="bold"
+            android:layout_alignEnd="@+id/BackbtnGe"
+            android:textColor="#fff"
+            android:textSize="40dp"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="10dp" />
+
+
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/mode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/welcome"
+        android:layout_marginTop="138dp"
+        android:text=" Choose Modes"
+        android:textAlignment="center"
+        android:textColor="#000"
+        android:textSize="35dp"
+        android:textStyle="bold"
+
+        />
+
+    <android.widget.Button
+        android:id="@+id/Hbasic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/mode"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="91dp"
+        android:layout_marginEnd="35dp"
+        android:layout_marginBottom="35dp"
+        android:background="@drawable/custom_color"
+        android:text="  Basic  "
+        android:textAllCaps="false"
+        android:textColor="#fff"
+        android:textSize="35dp" />
+
+    <android.widget.Button
+        android:id="@+id/Hadv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Hbasic"
+        android:layout_margin="25dp"
+        android:layout_marginTop="143dp"
+        android:layout_marginBottom="25dp"
+        android:background="@drawable/custom_color"
+        android:text="  Advanced  "
+        android:textAllCaps="false"
+        android:textColor="#fff"
+        android:textSize="35dp" />
+
+
+    <!--    <android.widget.Button-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_below="@+id/medium"-->
+<!--        android:layout_margin="25dp"-->
+<!--        android:id="@+id/hard"-->
+<!--        android:layout_centerHorizontal="true"-->
+<!--        android:text="  Hard  "-->
+<!--        android:textColor="#fff"-->
+<!--        android:textSize="35dp"-->
+<!--        android:textAllCaps="false"-->
+<!--        android:background="@drawable/custom_color"/>-->
+</RelativeLayout>

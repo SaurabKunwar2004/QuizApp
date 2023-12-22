@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#388E3C">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp">
+
+        <android.widget.Button
+            android:id="@+id/btnidt"
+            android:layout_width="51dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="10dp"
+            android:background="@drawable/menu_"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="My Quiz Application"
+            android:textColor="#fff"
+            android:textSize="25dp"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="10dp"
+           android:layout_toEndOf="@+id/btnidt"
+            android:id="@+id/toolbartitle"/>
+
+
+    </RelativeLayout>
+
+</RelativeLayout>
